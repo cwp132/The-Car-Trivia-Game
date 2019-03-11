@@ -1,16 +1,13 @@
 //  Set our number counter to 45 seconds.
 //variables
-var number = 50;
+var number = 45;
 var correct = 0;
 var incorrect = 0;
 var intervalId;
 var radios = document.getElementsByName("q1c");
 console.log(correct);
 $("#resume").on("click", run);
-// console.log(answer);
 
-// $("#right").on("click", rightAnswer());
-// console.log(correct);
 
 $(".answer").on("click", function (event) {
     console.log(event);
